@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Open the editor
+    url: https://deaeath.github.io/3dx-world-editor/
+    about: The Feedback button in the editor fills in the details for you.

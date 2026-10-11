@@ -1,0 +1,27 @@
+name: Incident
+description: The editor or site is down, broken for everyone, or lost someone's work.
+labels: [incident]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's broken?
+      description: What stopped working, since when, and who is affected?
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Site or editor won't load
+        - Work was lost
+        - A main feature is broken (saving, AI builder, generators...)
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Editor details
+      description: Version, browser, world, recent errors. The editor's Feedback button fills this in.

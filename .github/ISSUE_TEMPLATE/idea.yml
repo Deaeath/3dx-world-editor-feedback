@@ -1,0 +1,11 @@
+name: Idea
+description: A feature or improvement you'd like.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should the editor do, and what would it help you build?
+    validations:
+      required: true
